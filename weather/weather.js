@@ -14,7 +14,7 @@ const getWeather = (lat, lng, callback) => {
         apparentTemperature
       });
     } else {
-      callback('Unable to fetch Weather!.');
+      callback('Unable to fetch Weather.');
     }
   });
 };
